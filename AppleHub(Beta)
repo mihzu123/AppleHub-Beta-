@@ -1,0 +1,73 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Apple Hub",IntroText = "ngminhnghia", HidePremium = false, SaveConfig = true, ConfigFolder = "AppleHub"})
+local Tab = Window:MakeTab({
+	Name = "Shop",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Main"
+})
+Tab:AddButton({
+	Name = "Teleport Sea 1 ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Teleport Sea 2 ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Teleport Sea 3 ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Fighting Shop"
+})
+Tab:AddButton({
+	Name = "SuperHuman",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "DeathStep",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "SharkmanKarate",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "ElectricClaw",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "DragonTalon",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "GodHuman",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Sanguine Art",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
